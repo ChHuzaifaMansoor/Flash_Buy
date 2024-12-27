@@ -1,0 +1,32 @@
+/* Pagination bullets */
+.swiper-pagination-bullet {
+    background-color: #facc15; /* Tailwind yellow-400 color */
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #fbbf24; /* Tailwind yellow-500 color */
+    opacity: 1;
+  }
+  
+  /* Navigation arrows */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #facc15; /* Tailwind yellow-400 color */
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #fbbf24; /* Tailwind yellow-500 color */
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* WebKit */
+  }
+  
